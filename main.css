@@ -1,0 +1,76 @@
+
+*{
+	margin: 1px;
+	padding: 1px;
+}
+.cancha{
+	height: 370px;
+	width: 670px;
+	background-color:#8CB27C;
+
+}
+
+.borde{
+	height: 332px;
+	width: 640px;
+	border: 1px solid white;
+	margin: auto;
+	top: 15px;
+	bottom: 5px;
+	position: relative; /* esto es para que el borde este ddentro de la cacha y se pueda modificar ahi*/
+}
+
+.c1{
+	height: 145px;
+	width: 85px;
+	border: 1px solid white;
+	position: relative;
+	top: -235px ;
+	left: 12px;
+	
+}
+
+.centro{
+	border: 1px solid white; 
+   border-radius: 100px;
+margin: auto;
+   width: 140px;
+   height: 140px;
+   position: relative;
+    bottom: 382px ;
+
+}
+
+.c2{
+	height: 145px;
+	width: 85px;
+	border: 1px solid white;
+	position: relative;
+	float: right;
+	bottom: 530px ;
+	margin: auto;
+	right: 13px;
+}
+
+img{
+	position: relative;
+	width: 22px;
+	height: 22px;
+}
+
+.c1 img{
+
+	left: 73px;
+
+}
+
+.c2 img{
+	float: right;
+	right: 90px;
+	top: 110px;
+}
+
+.centro img{
+	top: -50px;
+	left: 70px;
+}
